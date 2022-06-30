@@ -1,15 +1,14 @@
+import { Event } from '../src/pages/Event';
+import { Logo } from '../src/components/logo/Logo';
 
-
-interface lessons {
-  id: String;
-  title:String;
-}
 
 function App() {
-  
 
   return (
-    <h1>HELLO WORD</h1>
+    <div>
+      <Logo />
+     <Event />
+    </div>
   )
 }
 
