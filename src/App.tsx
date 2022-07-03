@@ -1,7 +1,6 @@
 import { Event } from '../src/pages/Event';
 
 
-
 function App() {
 
   return (
